@@ -1,14 +1,15 @@
 {
-  "name": "mediaplayer",
+  "name": "platzi-media-player",
   "version": "1.0.0",
-  "description": "building media player video",
-  "scripts": {
-    "start": "live-server",
-    "build": "tsc src/**/*.ts src/plugins/*.ts src/plugins/**/*.ts --outDir lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Juan Gaybre",
+  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
   "license": "MIT",
+  "author": "Richard B. Kaufman López <richardbkaufman@gmail.com>",
+  "keywords": [
+    "platzi"
+  ],
+  "scripts": {
+    "start": "live-server"
+  },
   "devDependencies": {
     "live-server": "^1.2.1"
   }
